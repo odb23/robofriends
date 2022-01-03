@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Card from './Card';
 import reportWebVitals from './reportWebVitals';
+import 'tachyons';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <div>
+    <Card name="Dami" id="0" email="dmai@gmail.com"/>
+  </div>,
   document.getElementById('root')
 );
 
