@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Card from './Card';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';
+import CardList from './CardList';
+import {robots} from './robots'
 
 ReactDOM.render(
-  <div>
-    <Card name="Dami" id="0" email="dmai@gmail.com"/>
-  </div>,
+  <CardList robots={robots}/>,
   document.getElementById('root')
 );
 
