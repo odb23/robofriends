@@ -1,5 +1,5 @@
 /* eslint-disable no-template-curly-in-string */
-import React from 'react';
+import React from 'react'; 
 
 
 const Card = ({ name, email, id }) => {
