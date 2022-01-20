@@ -1,7 +1,7 @@
 import { CHANGE_SEARCH_FIELD } from "./constants";
 
 const initialState = {
-    seachField: ''
+    searchField: ''
 }
 
 export const searchRobots = (state=initialState, action={}) => {
